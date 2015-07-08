@@ -1,0 +1,24 @@
+                A Ruby Complimentary Component Value Matcher
+		--------------------------------------------
+
+
+Overview:	Simple library for matching complimentary component
+		values.  These are input by way of two arrays.  
+		Value comparisons are absolute terms only.  There
+		is a convenience printing method, and of course
+		an accessor for the array-based matching data for
+		use in other applications. 	
+
+Method:		Iterative selection of closes match within a given
+		tolerance threshold until there are no more matches
+		or the input arrays are depleted.		
+
+Examples:	To run the example:	
+
+		   ruby match_csv.rb test.csv 0.1
+
+		   test.csv is any CSV file with two columns, one
+		      for the first group of values, one for the 
+		      second.
+
+		   0.1 is the threshold in absolute terms.
