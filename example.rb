@@ -3,7 +3,7 @@
 # Distributed under the terms of the MIT License
 
 require 'csv'
-require './match.rb'
+require './src/match.rb'
 
 filename  = ARGV[0]
 threshold = Float(ARGV[1])
