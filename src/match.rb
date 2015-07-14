@@ -8,8 +8,8 @@ class Match
 
     def report
         percent = 200 * Float(@result.count) / Float(@total)
-        printf("%d pairs found from %d total parts (%.0f%% matched)\n",@result.count,@total,percent)
-        @result.each { |v| printf("   [ %.2f | %.2f ]   (%.2f)\n",v[0],v[1],v[2]) }
+        puts "%d pairs found from %d total parts (%.0f%% matched)" % [@result.count,@total,percent]
+        @result.each { |v| puts "   [ %.2f | %.2f ]   (%.2f)" % [v[0],v[1],v[2]] }
     end
 
     def match(threshold)
