@@ -9,7 +9,7 @@ Overview:   Simple library for matching complimentary component
             an accessor for the array-based matching data for
             use in other applications.  
 
-Method:     Iterative selection of closes match within a given
+Method:     Iterative selection of closest matches within a given
             tolerance threshold until there are no more matches
             or the input arrays are depleted.       
 
